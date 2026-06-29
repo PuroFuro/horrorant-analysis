@@ -1,0 +1,19 @@
+# --- Privacy: never publish raw data or the de-anonymization key ---
+# Raw Discord JSON exports (private message content)
+exports/
+*.json
+# Maps public aliases back to real Discord handles
+anonymize.py
+# Repo-prep brief (contains the real handles; not portfolio content)
+AGENTS(1).md
+
+# --- Python virtual environments ---
+# The venv that ships in this folder
+horrorant/
+.venv/
+venv/
+
+# --- Python / Jupyter cruft ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
